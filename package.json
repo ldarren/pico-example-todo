@@ -1,0 +1,33 @@
+{
+  "name": "todo",
+  "version": "0.0.1",
+  "description": "todo example for pico-client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldarren/pico-example-todo.git"
+  },
+  "keywords": [
+    "pico",
+    "pico-client",
+    "todo"
+  ],
+  "author": "Darren Liew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ldarren/pico-example-todo/issues"
+  },
+  "homepage": "https://github.com/ldarren/pico-example-todo#readme",
+  "dependencies": {
+    "lean-wrap": "^0.2.16",
+    "pico-client": "^0.3.7",
+    "pojs": "^0.3.17"
+  },
+  "devDependencies": {
+    "clean-css": "^4.1.8",
+    "pico-args": "^1.0.9"
+  }
+}

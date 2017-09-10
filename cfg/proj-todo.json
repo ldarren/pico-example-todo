@@ -1,0 +1,26 @@
+[
+	["p/View","view",[
+		["tasks","models",[]],
+		["activeTasks","view",[
+			["options", "map", {"el": ".__ ul#active"}],
+			["tasks","ref","tasks"],
+			["activeTask","view",[
+				["options", "map", {"tagName": "li"}],
+				["task","model","tasks",0]
+			]]
+		]],
+		["addTask","view",[
+			["options", "map", {"el": ".__ #input"}],
+			["html", "file", "addTask.html"],
+			["tasks","ref","tasks"]
+		]],
+		["completedTasks","view",[
+			["options", "map", {"el": ".__ ul#completed"}],
+			["tasks","ref","tasks"],
+			["completedTask","view",[
+				["options", "map", {"tagName": "li"}],
+				["task","model","tasks",0]
+			]]
+		]]
+	]]
+]
