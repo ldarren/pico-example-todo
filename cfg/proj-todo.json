@@ -1,6 +1,8 @@
 [
 	["p/View","view",[
-		["tasks","models",[]],
+		["tasks","models",[
+			["reload","bool",true]
+		]],
 		["activeTasks","view",[
 			["options", "map", {"el": ".__ ul#active"}],
 			["tasks","ref","tasks"],

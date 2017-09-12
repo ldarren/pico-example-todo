@@ -1,6 +1,6 @@
 {
   "name": "todo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "todo example for pico-client",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   "dependencies": {
     "lean-wrap": "^0.2.16",
     "pico-client": "^0.3.7",
-    "pojs": "^0.3.17"
+    "pojs": "^0.4.2"
   },
   "devDependencies": {
     "clean-css": "^4.1.8",
