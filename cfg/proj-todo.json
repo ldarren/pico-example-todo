@@ -20,7 +20,7 @@
 			["options", "map", {"el": ".__ ul#completed"}],
 			["tasks","ref","tasks"],
 			["completedTask","view",[
-				["options", "map", {"tagName": "li"}],
+				["options", "map", {"tagName": "li","style": "text-decoration:line-through"}],
 				["task","model","tasks",0]
 			]]
 		]]
