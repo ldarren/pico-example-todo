@@ -23,8 +23,9 @@
   "homepage": "https://github.com/ldarren/pico-example-todo#readme",
   "dependencies": {
     "lean-wrap": "^0.2.16",
-    "pico-client": "^0.3.7",
-    "pojs": "^0.4.2"
+    "pico-client": "^0.3.9",
+    "pico-common": "^0.8.3",
+    "pojs": "^0.4.6"
   },
   "devDependencies": {
     "clean-css": "^4.1.8",
