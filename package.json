@@ -1,6 +1,6 @@
 {
   "name": "todo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "todo example for pico-client",
   "main": "index.html",
   "scripts": {
@@ -28,7 +28,7 @@
     "pojs": "^0.4.6"
   },
   "devDependencies": {
-    "clean-css": "^4.1.8",
+    "clean-css": "^4.1.11",
     "pico-args": "^1.0.9"
   }
 }
